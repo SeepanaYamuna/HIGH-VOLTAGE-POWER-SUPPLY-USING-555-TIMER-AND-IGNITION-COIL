@@ -4,24 +4,40 @@ High-voltage power supply using a 555 timer oscillator and ignition coil. Conver
 ## OVERVIEW
 
 This project demonstrates the design and implementation of a high-voltage power supply using a 555 timer-based oscillator and an automotive ignition coil. The system converts low DC voltage into high-voltage output using high-frequency switching techniques.
+<p align="center">
+  <img src="fully assembled.jpg" width="500"/>
+</p>
+<p align="center">
+  <img src="working plasma bulb.jpg" width="200"/>
+</p>
 
 ---
 
 ## WORKING PRINCIPLE
 
 The circuit is based on a high-frequency oscillator driving a power transistor, which in turn excites an ignition coil acting as a step-up transformer.
+<p align="center">
+  <img src="high voltage power supply.jpg" width="500"/>
+</p>
+<p align="center">
+  <img src="ignition coil connections.jpg" width="250"/>
+</p>
 
 * 555 Timer configured in **astable mode**
 * Generates high-frequency square wave
 * Transistor acts as a switching amplifier
 * Ignition coil steps up voltage to high levels
 
-High voltage generation is achieved through rapid switching of current in an inductive element, a principle similar to switching converters. ([Creative Engineering][1])
+<p align="center">
+  <img src="block diagram high voltage.jpg" width="500"/>
+</p>
 
 ---
 
 ## CIRCUIT DESCRIPTION
-
+<p align="center">
+  <img src="circuit of plasma.jpg" width="500"/>
+</p>
 * Oscillator Supply: 9V
 * Power Stage Supply: 24V (SMPS)
 * Adjustable frequency using potentiometer
@@ -32,7 +48,13 @@ The ignition coil behaves as a high-voltage transformer and produces large volta
 ---
 
 ## IMPLEMENTATION
+<p align="center">
+  <img src="completed PCB.jpg" width="500"/>
+</p>
 
+<p align="center">
+  <img src="fully assembled.jpg" width="500"/>
+</p>
 The circuit was implemented using:
 
 * NE555 Timer IC
